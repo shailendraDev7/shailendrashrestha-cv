@@ -1,0 +1,19 @@
+/* MyComponent.module.css */
+.myContainer {
+  background-color: white;
+  color: #4a5568; /* Example color from Tailwind's gray-700 */
+  margin:0 24rem; /* Example margin */
+  padding: 6rem; /* Example padding */
+  border-radius: 1rem; /* Example rounded corners */
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.myContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.myContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
