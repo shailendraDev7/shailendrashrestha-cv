@@ -1,4 +1,4 @@
-import CvShail from "./CVShail"
+import CvShail from "./CvShail"
 
 const Home = () => {
   return (

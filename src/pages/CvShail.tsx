@@ -1,6 +1,4 @@
-import { Link, } from "react-router-dom";
 import logo from "../assets/images/shailendra.jpg";
-import { IoMdHome } from "react-icons/io";
 import styles from "./CvShail.module.css";
 
 const CvShail = () => {
