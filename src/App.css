@@ -1,7 +1,4 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
   padding: 0;
@@ -14,21 +11,9 @@ html {
   scroll-behavior: smooth;
 }
 
-li,
-a {
-  font-size: 1.4rem;
-  letter-spacing: 0.1rem;
-}
-
 p{
   font-size: 1.5rem;
   text-align: justify;
-}
-
-
-a:hover{
-  color: #024a70;
-  text-decoration: underline;
 }
 
 li {
@@ -36,6 +21,9 @@ li {
   margin: 0;
 }
 
+a:hover{
+  color: rgb(0, 61, 147);
+}
 
 /* Theme */
 :root {
@@ -48,3 +36,19 @@ li {
 }
 
 /* Layout */
+
+.preview-img {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  height: auto;
+  display: none;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.preview-link {
+  position: relative;
+  text-decoration: none;
+}
